@@ -1,20 +1,20 @@
 {
-    "name": "matching-app",
-    "version": "1.0.0",
-    "description": "matching app, work in progress",
-    "license": "MIT",
-    "repository": "jargill21/Bloktech",
-    "scripts": {
-      "start": "node server.js"
-    },
-    "author": {
-      "name": "JarreauGill",
-      "url": "https://github.com/jargill21"
-    },
-    "devDependencies": {
-      "camelcase": "^6.2.0",
-      "chalk": "^4.1.0",
-      "express": "^4.17.1",
-      "nodemon": "^2.0.7"
-    }
+  "name": "matching-app",
+  "version": "1.0.0",
+  "description": "matching app, work in progress",
+  "license": "MIT",
+  "repository": "jargill21/Bloktech",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": {
+    "name": "JarreauGill",
+    "url": "https://github.com/jargill21"
+  },
+   "devDependencies": {
+    "camelcase": "^6.2.0",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
   }
+}
