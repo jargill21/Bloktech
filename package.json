@@ -2,7 +2,7 @@
     "name": "matching-app",
     "version": "1.0.0",
     "description": "matching app, work in progress",
-    "license": "Apache-2.0",
+    "license": "MIT",
     "repository": "jargill21/Bloktech",
     "scripts": {
       "start": "node server.js"
