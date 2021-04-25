@@ -10,6 +10,6 @@ app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
 
-app.get('/profile',(req, res) => {
-  res.send('test')
+app.get('/about', function (req, res) {
+  res.send('about')
 })
