@@ -1,5 +1,34 @@
 html, body {
     height:100;
     margin:0;
+    background-color: #293ce9;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 2em;
+    color: white;
+}
+
+img {
+    display: block;
+    margin-left: 16em;
+    margin-top: 15em;
+    width: 15em;
+    height: 10em;
+}
+
+.container {
+    text-align: center;
+    margin-top: 35em;
+}
+
+.btn {
+     background: none;
+     background-color: #ee25ee;
+     padding: 10px 20px;
+     font-size: 15px;
+     color: white;
+     border-radius: 50px;
+
+}
