@@ -4,10 +4,11 @@ const port = 3000
 
 const handlebars = require('express-handlebars');
 
-app.set('view engine', 'handlebars');
+app.set('view engine', 'hbs');
 
-app.engine('handlebars', handlebars({
+app.engine('hbs', handlebars({
   layoutsDir: `${__dirname}/views/layouts`
+  extname: 'hbs'
 
 }));
 
