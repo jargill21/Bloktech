@@ -12,7 +12,7 @@ app.engine('hbs', handlebars({
 
 }));
 
-app.use(express.static('public'));
+app.use(express.static('static'));
 
 app.get('/', (req, res) => {
   res.render('main', {layout: 'index'});
