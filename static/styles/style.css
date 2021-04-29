@@ -4,6 +4,10 @@ html, body {
     background-color: #293ce9;
 }
 
+:root{
+    --rotate: rotate(-20deg);
+}
+
 h1 {
     text-align: center;
     margin-top: 2em;
@@ -13,14 +17,38 @@ h1 {
 img {
     display: block;
     margin-left: 16em;
-    margin-top: 15em;
+    margin-top: 10em;
     width: 15em;
-    height: 10em;
+    height: 8em;
+}
+
+.joy{
+    transform: var(--rotate);
+    opacity: 30%;
+    width: 5em;
+    height: 2em;
+}
+
+
+.img1 {
+    display: block;
+    margin-left: 5em;
+    margin-top: -20em;
+    width: 5em;
+    height: 3em;
+}
+
+.img2 {
+    display: block;
+    margin-left: 5em;
+    margin-top: -30em;
+    width: 5em;
+    height: 3em;
 }
 
 .container {
     text-align: center;
-    margin-top: 35em;
+    margin-top: 10em;
 }
 
 .btn {
@@ -30,5 +58,4 @@ img {
      font-size: 15px;
      color: white;
      border-radius: 50px;
-
 }
