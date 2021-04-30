@@ -17,9 +17,9 @@ app.get('/', (req, res) => {
   res.render('main', {layout: 'index'});
 });
 
-app.get('/', (req, res) => {
+app.get('/profile', (req, res) => {
   res.render('profile', {layout: 'index'});
-});
+})
 
 
 app.listen(port, () => {
