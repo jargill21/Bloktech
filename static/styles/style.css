@@ -16,8 +16,9 @@ h1 {
 
 img {
     display: block;
-    margin-left: 16em;
+    margin-left: auto;
     margin-top: 10em;
+    margin-right: auto;
     width: 15em;
     height: 8em;
 }
