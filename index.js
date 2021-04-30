@@ -17,10 +17,10 @@ app.get('/', (req, res) => {
   res.render('main', {layout: 'index'});
 });
 
-app.use(function (req,res,next){
-	res.status(404).render('404')
-  console.log("404, page doesn't exist, check path")
-})
+app.get('/', (req, res) => {
+  res.render('profile', {layout: 'index'});
+});
+
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
