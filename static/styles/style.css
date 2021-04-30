@@ -45,14 +45,14 @@ img {
 .img1 {
     display: block;
     margin-left: 5em;
-    margin-top: -20em;
+    margin-top: -15em;
     width: 5em;
     height: 3em;
 }
 
 .img2 {
     display: block;
-    margin-left: 10em;
+    margin-right: 1em;
     margin-top: -15em;
     width: 5em;
     height: 3em;
