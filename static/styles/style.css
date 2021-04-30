@@ -1,7 +1,7 @@
 html, body {
     height:100;
     margin:0;
-    background-color: #146beeee;
+    background-color: #2258B4;
 }
 
 :root{
@@ -12,6 +12,19 @@ h1 {
     text-align: center;
     margin-top: 2em;
     color: white;
+}
+
+@keyframes wiebelen{
+    0% {
+    transform:rotate(-30deg);
+  }
+  100% {
+    transform:rotate(30deg);
+  }
+}
+
+.con{
+    animation: wiebelen 1s ease-in-out infinite alternate;
 }
 
 img {
@@ -47,7 +60,7 @@ img {
 
 .container {
     text-align: center;
-    margin-top: 10em;
+    margin-top: 15em;
 }
 
 .btn {
