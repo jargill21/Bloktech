@@ -1,8 +1,10 @@
 const express = require('express')
 const app = express()
 const port = 3000
-
+const router = require('./router/index');
 const handlebars = require('express-handlebars');
+
+app.use('/profile', router);
 
 app.set('view engine', 'hbs');
 
