@@ -6,6 +6,7 @@ html, body {
 
 :root{
     --rotate: rotate(-20deg);
+    --shadow: 5px 5px 10px black;
 }
 
 h1 {
@@ -52,8 +53,8 @@ img {
 
 .img2 {
     display: block;
-    margin-right: 1em;
-    margin-top: -15em;
+    margin-right: 10em;
+    margin-top: -10em;
     width: 5em;
     height: 3em;
 }
@@ -70,4 +71,6 @@ img {
      font-size: 15px;
      color: white;
      border-radius: 50px;
+     border: 2px solid #ee25ee;
+     filter: drop-shadow(var(--shadow));
 }
