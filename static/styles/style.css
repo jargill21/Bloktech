@@ -28,6 +28,21 @@ h1 {
     animation: wiebelen 1s ease-in-out infinite alternate;
 }
 
+form {
+    align-content: center;
+}
+
+.a {
+    background: none;
+     background-color: #ee25ee;
+     padding: 10px 50px;
+     font-size: 15px;
+     color: white;
+     border-radius: 50px;
+     border: 2px solid #ee25ee;
+     text-align: center;
+}
+
 img {
     display: block;
     margin-left: auto;
